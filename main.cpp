@@ -50,26 +50,6 @@ int main()
     c.remov(4);
     c.print();
 
-    Figura a1("Circulo");
-    Figura b2("Cuadrado");
-    Figura c3("Triangulo");
-    Figura d4("Rombo");
-    Figura d5("Trapecio");
-    
-    Figura F[3]={a1,b2,c3};
-    
-    std::cout<<"EMPLEADO CON CLASES:"<<std::endl;
-    DynamicIntegerArray<Figura> d(F,3);
-    d.print();
-    std::cout<<" Funcion pushback: ";
-    d.pushback(d5);
-    d.print();
-    std::cout<<" Funcion insert: ";
-    d.insert(d4,2);
-    d.print();
-    std::cout<<" Funcion remove: ";
-    d.remov(1);
-    d.print();
 
     return 0;
 }
