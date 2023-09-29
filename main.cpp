@@ -7,12 +7,12 @@ using namespace std;
 
 int main()
 {
-    int I[] = {2, 3, 4, 5};
+    int I[] = {2, 3, 4, 5, 6};
     double D[] = {2.3, 3.5, 4.2, 5.8};
     string S[] = {"gato", "perro", "pato", "raton"};
-     
+    int x;
     std::cout<<"ARRAY TIPO INT:"<<std::endl;
-    DynamicIntegerArray<int> a(I,4);
+    DynamicIntegerArray<int> a(I,5);
     a.print();
     std::cout<<" Funcion pushback: ";
     a.pushback(6);
